@@ -7,6 +7,7 @@ name = "agent-orchestration-examples"
 version = "0.1.0"
 source = { virtual = "." }
 dependencies = [
+    { name = "openai" },
     { name = "openai-agents" },
     { name = "opik" },
     { name = "python-dotenv" },
@@ -20,6 +21,7 @@ dev = [
 
 [package.metadata]
 requires-dist = [
+    { name = "openai", specifier = ">=1.69.0" },
     { name = "openai-agents", specifier = ">=0.0.7" },
     { name = "opik", specifier = ">=1.6.12" },
     { name = "python-dotenv", specifier = ">=1.1.0" },
