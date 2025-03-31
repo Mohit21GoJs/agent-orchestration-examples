@@ -1,0 +1,4 @@
+.devbox
+.venv
+.ipynb_checkpoints
+.env
